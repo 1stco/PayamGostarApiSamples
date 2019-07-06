@@ -3,7 +3,7 @@
     using PgForm;
     using System;
 
-    public class FormServices : IFormServices
+    internal class FormServices : IFormServices
     {
         private readonly FormClient _formClient;
 
@@ -18,9 +18,9 @@
         }
 
 
-        public FormInfoResult FindFormById(string username, string password, Guid formId)
+        public FormInfoResult FindFormById(Guid formId)
         {
-            return _formClient.FindFormById(username, password, formId);
+            return _formClient.FindFormById(Auth.UserName, Auth.Password, formId);
         }
     }
 }

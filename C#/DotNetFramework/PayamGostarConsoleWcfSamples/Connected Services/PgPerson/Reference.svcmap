@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fa1e1411-fa84-4768-be30-1e62760bf682" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://crm.payamgostar.com/services/api/iperson.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Person.wsdl" MetadataType="Wsdl" ID="18b41a80-1baf-440f-9f39-ee6f12623768" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?wsdl" />
+    <MetadataFile FileName="IPerson.xsd" MetadataType="Schema" ID="4ed9b772-6a8f-428d-a2f7-e435654d60c1" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?xsd=xsd1" />
+    <MetadataFile FileName="IPerson1.xsd" MetadataType="Schema" ID="88c9ac8e-d3f7-46a9-9ccf-0f3883d27ab8" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?xsd=xsd3" />
+    <MetadataFile FileName="IPerson2.xsd" MetadataType="Schema" ID="b7489a8e-b22d-4958-85aa-e5570566d1ff" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?xsd=xsd4" />
+    <MetadataFile FileName="IPerson.disco" MetadataType="Disco" ID="6c2af9dc-25db-47c8-903d-7c77088c1e04" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?disco" />
+    <MetadataFile FileName="IPerson3.xsd" MetadataType="Schema" ID="31d5844d-de4a-4b2c-858b-7f8063940324" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?xsd=xsd0" />
+    <MetadataFile FileName="IPerson4.xsd" MetadataType="Schema" ID="15e5101d-1bfd-439c-aa17-7aecf13991cf" SourceId="1" SourceUrl="http://crm.payamgostar.com/services/api/IPerson.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

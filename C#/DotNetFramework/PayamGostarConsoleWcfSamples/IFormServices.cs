@@ -3,8 +3,8 @@
     using PgForm;
     using System;
 
-    public interface IFormServices
+    internal interface IFormServices
     {
-        FormInfoResult FindFormById(string username, string password, Guid formId);
+        FormInfoResult FindFormById(Guid formId);
     }
 }

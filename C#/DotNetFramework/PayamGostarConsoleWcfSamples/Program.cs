@@ -6,10 +6,15 @@
     {
         static void Main(string[] args)
         {
+            // Init
             IFormServices form = new FormServices();
+            IPersonServices person = new PersonServices();
 
-            // Form
-            var findFormById = form.FindFormById("admin", "admin", Guid.NewGuid());
+            // Form samples
+            var findFormById = form.FindFormById(Guid.NewGuid());
+
+            // Person samples
+            var findPersonById = person.FindPersonById(Guid.NewGuid());
         }
     }
 }
