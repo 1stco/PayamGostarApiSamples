@@ -18,7 +18,7 @@ namespace PayamGostarConsoleWcfSamples
             // Person samples
             var findPersonById = person.FindPersonById(Guid.NewGuid());
 
-            person.SavePerson(new PersonInfo
+            var saveCrmObjectResult = person.SavePerson(new PersonInfo
             {
                 FirstName = "Omid",
                 LastName = "Nasri",
