@@ -6,5 +6,6 @@
     internal interface IPersonServices
     {
         PersonInfoResult FindPersonById(Guid personId);
+        SaveCrmObjectResult SavePerson(PersonInfo personInfo);
     }
 }

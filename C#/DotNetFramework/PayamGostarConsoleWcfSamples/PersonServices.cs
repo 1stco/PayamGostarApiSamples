@@ -21,5 +21,10 @@ namespace PayamGostarConsoleWcfSamples
         {
             return _personClient.FindPersonById(Auth.UserName, Auth.Password, personId);
         }
+
+        public SaveCrmObjectResult SavePerson(PersonInfo personInfo)
+        {
+            return _personClient.SavePerson(Auth.UserName, Auth.Password, personInfo);
+        }
     }
 }

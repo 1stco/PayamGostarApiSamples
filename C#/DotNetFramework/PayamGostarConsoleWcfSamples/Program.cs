@@ -1,4 +1,6 @@
-﻿namespace PayamGostarConsoleWcfSamples
+﻿using PayamGostarConsoleWcfSamples.PgPerson;
+
+namespace PayamGostarConsoleWcfSamples
 {
     using System;
 
@@ -15,6 +17,21 @@
 
             // Person samples
             var findPersonById = person.FindPersonById(Guid.NewGuid());
+
+            person.SavePerson(new PersonInfo
+            {
+                FirstName = "Omid",
+                LastName = "Nasri",
+                Gender = "مرد",
+                CrmObjectTypeCode = "yourType",
+                Categories = new []
+                {
+                    new CategoryInfo
+                    {
+                        Key = "categoryKey"
+                    }
+                }
+            });
         }
     }
 }
