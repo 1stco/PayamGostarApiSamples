@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ea51853a-71ba-4b6f-814f-f0770418d4b9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://crm.payamgostar.com/services/api/iform.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IForm.xsd" MetadataType="Schema" ID="8f1032bd-a8ff-4856-adc8-1ee4ea0615f1" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?xsd=xsd4" />
+    <MetadataFile FileName="IForm.disco" MetadataType="Disco" ID="7b310c35-0f8e-487c-9e4a-dfbf86925d97" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?disco" />
+    <MetadataFile FileName="Form.wsdl" MetadataType="Wsdl" ID="c4f30a2f-0eb9-4505-ba3e-c18211ae83d7" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?wsdl" />
+    <MetadataFile FileName="IForm1.xsd" MetadataType="Schema" ID="e64caaa2-9a2e-4ac8-8154-3d8cd8997527" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?xsd=xsd0" />
+    <MetadataFile FileName="IForm2.xsd" MetadataType="Schema" ID="f241909d-96f5-41bd-bc21-a2280c3000c9" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?xsd=xsd1" />
+    <MetadataFile FileName="IForm3.xsd" MetadataType="Schema" ID="9d3e3f62-8042-4e1d-9c42-0e611705d7a4" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?xsd=xsd2" />
+    <MetadataFile FileName="IForm4.xsd" MetadataType="Schema" ID="def55ecb-4758-4aa3-939f-b226b091b90c" SourceId="1" SourceUrl="http://crm.payamgostar.com/Services/API/IForm.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
