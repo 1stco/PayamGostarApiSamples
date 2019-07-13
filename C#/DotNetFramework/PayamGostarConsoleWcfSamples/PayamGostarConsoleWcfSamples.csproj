@@ -44,13 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auth.cs" />
     <Compile Include="Connected Services\PgForm\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\PgPerson\Reference.cs" />
+    <Compile Include="Connected Services\PgPerson\Reference1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="FormServices.cs" />
     <Compile Include="IFormServices.cs" />
+    <Compile Include="IPersonServices.cs" />
+    <Compile Include="PersonServices.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -78,6 +87,24 @@
     <None Include="Connected Services\PgForm\PayamGostarConsoleWcfSamples.PgForm.SaveCrmObjectResult.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Connected Services\PgPerson\IPerson.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PgPerson\IPerson1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PgPerson\IPerson2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PgPerson\IPerson3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PgPerson\IPerson4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PgPerson\PayamGostarConsoleWcfSamples.PgPerson.PersonInfoResult.datasource" />
+    <None Include="Connected Services\PgPerson\PayamGostarConsoleWcfSamples.PgPerson.SaveCrmObjectResult.datasource" />
+    <None Include="Connected Services\PgPerson\Person.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -99,6 +126,15 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Connected Services\PgPerson\configuration.svcinfo" />
+    <Content Include="Connected Services\PgPerson\configuration91.svcinfo" />
+    <Content Include="Connected Services\PgPerson\IPerson.disco" />
+    <Content Include="Connected Services\PgPerson\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference1.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
