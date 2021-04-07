@@ -15,16 +15,25 @@ var password = 'admin';
 // Replace <url> keyword to your CRM host address.
 var url = 'http(s)://<url>/Services/API/IPerson.svc?wsdl';
 
-var requestArgs = {
-    "username": username, 
-    "password": password,
-    person: {
-        FirstName: "node",
-        LastName: "node",
-        CrmObjectTypeCode: "crmCode",
-        CrmObjectTypeIndex: "24",
-        'Categories': { 'CategoryInfo': { 'Key': "kpvc" } }
-    }
+let requestArgs = {
+  username: username,
+  password: password,
+  person: {
+    FirstName: "test",
+    LastName: "test",
+    CrmObjectTypeCode: "person",
+    IdentityType: "حقیقی",
+    Categories: { CategoryInfo: { Key: "siteclients" } },
+    PhoneContacts: {
+      IdentityContactPhone: {
+        PhoneNumber: "09120000000",
+        PhoneType: "موبایل",
+        IsDefault: true,
+      },
+    },
+    Emails: { string: ["test@gmail.com"] },
+    Subject: "عضویت در سایت",
+  },
 };
 
 var options = {};
